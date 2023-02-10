@@ -1,0 +1,11 @@
+restassured\myOwnProject1\App.class
+resource\MyListner.class
+resource\DriverSetup.class
+restassured\myOwnProject1\AccessoriesList.class
+resource\ExtentReport.class
+resource\MyRetry.class
+restassured\myOwnProject1\ShopPower.class
+restassured\myOwnProject1\SelectProduct.class
+resource\SetMyRetry.class
+restassured\myOwnProject1\AddProduct.class
+restassured\myOwnProject1\PageHomePage.class

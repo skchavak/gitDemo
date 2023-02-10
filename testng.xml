@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test thread-count="5" name="Test">
+	<parameter name="browser" value="chrome"></parameter>
+		<groups>
+			<run>
+				<include name="Method1"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="restassured.myOwnProject1.FooterTest" />
+
+		</classes>
+		</test>
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+		<listener class-name="resource.SetMyRetry"></listener>
+		<listener class-name="resource.MyListner"></listener>
+	</listeners>
+
+</suite> <!-- Suite -->
